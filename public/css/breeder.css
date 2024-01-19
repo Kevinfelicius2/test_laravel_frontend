@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration:  none;
+    font-family: 'Lexend';
+}
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('/fonts/Lexend-VariableFont_wght.ttf') format('truetype');
+    /* Add additional font variations as needed */
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    color: #785151;
+}
+.nav-bar{
+    margin-left: -100px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-bar li{
+    color: #785151;
+    padding-top: 5px;
+    padding-left: 50px;
+}   
+#logo{
+    padding-top: 10px;
+    padding-left: 10vh;
+    size: 50px;
+}
+.login{
+    padding-right: 50px;
+    padding-top: 18px;
+}
+#arrow{
+    vertical-align: middle;
+}
+
+#eclipseLeft{
+    z-index: -1;
+    position: absolute;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftText{
+    margin-top: -120px;
+    width: 600px;
+    margin-left: 80px;
+}
+#lt1{
+    font-size: 50px;
+    margin: 0px;
+    color: #785151;
+    font-weight: bold;
+}
+#lt2{
+    font-size: 50px;
+    margin: 0px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.descSect1{
+    color: grey;
+    font-weight: 300;
+}
+#kucing{
+    margin-top: 0px;
+}
+#readMore{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #785151;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#aLight{
+    width: 15px;
+    margin-left: 5px;
+    margin-top: -2px;
+    vertical-align: middle;
+}
+
+.section2{
+    text-align: center;
+}
+.aboutUs{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+#about{
+    margin-right: 10px;
+}
+#us{
+    color: #785151;
+}
+.descSect2{
+    margin-top: -15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: 300;
+    color: grey;
+}
+#septSect2{
+    margin-top: 30px;
+}
+.supportSect2{
+    margin-top: 20px;
+    color: grey;
+}
+.bottomSect2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#wcf{
+    width: 50px;
+    margin-top: 20px;
+}
+#duaCat{
+    margin-top: 25px;
+    width: 300px;
+}
+
+.eclipseRight{
+    z-index: -1;
+    position: absolute;
+    right: 0; 
+    margin-top: -500px;
+}
