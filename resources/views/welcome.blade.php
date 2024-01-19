@@ -60,7 +60,7 @@
             efficitur. Fusce in ipsum augue. Praesent tempor, tellus quis rhoncus luctus, neque mi consectetur
             metus, vitae efficitur nisl sem ut nulla. Duis a diam sagittis tortor porttitor facilisis.
         </div>
-        <img id="septSect2" src="{{ asset('images/Line.png') }}" alt="separator">
+        <hr class="solid">
         <div class="supportSect2">
             Supported By
         </div>
@@ -68,7 +68,11 @@
             <img id="wcf" src="{{ asset('images/WCF.png') }}" alt="wcf">
             <img id="duaCat" src="{{ asset('images/groupCat.png') }}" alt="2cat">
         </div>
-        
+
+    </div>
+
+    <div class="eclipseLeft2">
+        <img id="eclipseLeft2" src="{{ asset('images/ellipse.png') }}" alt="eclipse">
     </div>
 
     <div class="eclipseRight">
@@ -76,8 +80,58 @@
     </div>
 
     <div class="section3">
-    </div>
+        <div class="ourServ">
+            <p id="our">Our</p>
+            <p id="serv">Services</p>
+        </div>
+        <div class="descSect3">
+            Fusce feugiat venenatis nulla eget posuere. Nec euismod lacus efficitur.
+            Fusce in ipsum augue. Praesent tempor, tellus quis rhoncus luctus.
+        </div>
+        <hr class="solid">
+        <div class="cardSect3">
+            <div class="card1">
+                <div class="imgCard1">
+                    <img id="imgCard1" src="{{ asset('images/icon.png') }}" alt="imgCard1">
+                </div>
+                <div class="textCard1">
+                    <p id="titleCard1">Routine Health Checks</p>
+                    <p id="descCard1">Pellenque nunc nisi, rhos in pulvinar drerit et dolor.</p>
+                </div>
+            </div>
+            <div class="card2">
+                <div class="imgCard1">
+                    <img id="imgCard2" src="{{ asset('images/icon2.png') }}" alt="imgCard2">
+                </div>
+                <div class="textCard1">
 
+                    <p id="titleCard2">Routine Health Checks</p>
+                    <p id="descCard2">Pellenque nunc nisi, rhos in pulvinar drerit et dolor.</p>
+                </div>
+            </div>
+            <div class="card3">
+                <div class="imgCard1">
+                    <img id="imgCard3" src="{{ asset('images/icon3.png') }}" alt="imgCard3">
+                </div>
+                <div class="textCard1">
+                    <p id="titleCard3">Routine Health Checks</p>
+                    <p id="descCard3">Pellenque nunc nisi, rhos in pulvinar drerit et dolor.</p>
+                </div>
+            </div>
+            <div class="card4">
+                <div class="imgCard1">
+                    <img id="imgCard4" src="{{ asset('images/icon4.png') }}" alt="imgCard4">
+                </div>
+                <div class="textCard1">
+                    <p id="titleCard4">Routine Health Checks</p>
+                    <p id="descCard4">Pellenque nunc nisi, rhos in pulvinar drerit et dolor.</p>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    <img id="kucing2" src="{{ asset('images/kucingSect3.png') }}" alt="kucing2">
 </body>
 
 </html>

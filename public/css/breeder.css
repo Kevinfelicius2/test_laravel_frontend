@@ -115,11 +115,14 @@ header{
     font-weight: 300;
     color: grey;
 }
-#septSect2{
+hr.solid {
+    border-top: 1px solid #bbb;
+    width: 25%;
     margin-top: 30px;
+
 }
 .supportSect2{
-    margin-top: 20px;
+    margin-top: 30px;
     color: grey;
 }
 .bottomSect2{
@@ -129,16 +132,160 @@ header{
 }
 #wcf{
     width: 50px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 #duaCat{
-    margin-top: 25px;
+    margin-top: 40px;
     width: 300px;
+    z-index:-1;
+    
 }
 
+.eclipseLeft2{
+    z-index: -1;
+    position: absolute; 
+    margin-top: -600px;
+}
 .eclipseRight{
     z-index: -1;
     position: absolute;
     right: 0; 
-    margin-top: -500px;
+    margin-top: -600px;
+}
+
+.section3{
+    background-color: #fafafa;
+    margin-top: -50px;
+    height: 600px;
+}
+.ourServ{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+#our{
+    margin-right: 10px;
+}
+#serv{
+    color: #785151;
+}
+.descSect3{
+    margin-top: -15px;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-weight: 300;
+    color: grey;
+    text-align: center;
+}
+.cardSect3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    z-index: 1;
+    position: relative;
+}
+.card1{
+    background-color: white;
+    width: 180px;
+    height: 220px;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 20%;
+}
+.imgCard1{
+    margin-top: 30px;
+}
+.textCard1{ 
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+}
+#titleCard1{
+    font-weight: bold;
+}
+#descCard1{
+    font-weight: 300;
+    font-size: 10px;
+    color: grey;
+}
+.card2{
+    background-color: #775c5d;
+    width: 180px;
+    height: 220px;
+    border-radius: 15px;
+    text-align: center;
+}
+.imgCard2{
+    margin-top: 30px;
+}
+.textCard2{ 
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+
+}
+#titleCard2{
+    font-weight: bold;
+    color: white;
+}
+#descCard2{
+    font-weight: 300;
+    font-size: 10px;
+    color: white;
+}
+.card3{
+    background-color: white;
+    width: 180px;
+    height: 220px;
+    border-radius: 15px;
+    text-align: center;
+}
+.imgCard3{
+    margin-top: 30px;
+}
+.textCard3{ 
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+
+}
+#titleCard3{
+    font-weight: bold;
+}
+#descCard3{
+    font-weight: 300;
+    font-size: 10px;
+    color: grey;;
+}
+.card4{
+    background-color: white;
+    width: 180px;
+    height: 220px;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 20%;
+}
+.imgCard4{
+    margin-top: 30px;
+}
+.textCard4{ 
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+
+}
+#titleCard4{
+    font-weight: bold;
+}
+#descCard4{
+    font-weight: 300;
+    font-size: 10px;
+    color: grey;
+}
+#kucing2{
+    z-index: 0;
+    position: absolute;
+    right: 0; 
+    margin-top: -550px;
 }
