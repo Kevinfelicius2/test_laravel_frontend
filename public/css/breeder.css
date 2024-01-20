@@ -15,6 +15,7 @@ header{
     width: 100%;
     position: fixed;
     background-color: white;
+    z-index: 3;
 }
 .nav{
     display: flex;
@@ -101,6 +102,7 @@ header{
     display: flex;
     justify-content: center;
     font-size: 35px;
+    font-weight: bold;
 }
 #about{
     margin-right: 10px;
@@ -119,7 +121,6 @@ hr.solid {
     border-top: 1px solid #bbb;
     width: 25%;
     margin-top: 30px;
-
 }
 .supportSect2{
     margin-top: 30px;
@@ -163,6 +164,7 @@ hr.solid {
     display: flex;
     justify-content: center;
     font-size: 35px;
+    font-weight: bold;
 }
 #our{
     margin-right: 10px;
@@ -193,10 +195,10 @@ hr.solid {
     text-align: center;
     margin-left: 20%;
 }
-.imgCard1{
+.imgCard{
     margin-top: 30px;
 }
-.textCard1{ 
+.textCard{ 
     width: 80%;
     text-align: center;
     margin-left: 10%;
@@ -216,15 +218,6 @@ hr.solid {
     border-radius: 15px;
     text-align: center;
 }
-.imgCard2{
-    margin-top: 30px;
-}
-.textCard2{ 
-    width: 80%;
-    text-align: center;
-    margin-left: 10%;
-
-}
 #titleCard2{
     font-weight: bold;
     color: white;
@@ -241,23 +234,6 @@ hr.solid {
     border-radius: 15px;
     text-align: center;
 }
-.imgCard3{
-    margin-top: 30px;
-}
-.textCard3{ 
-    width: 80%;
-    text-align: center;
-    margin-left: 10%;
-
-}
-#titleCard3{
-    font-weight: bold;
-}
-#descCard3{
-    font-weight: 300;
-    font-size: 10px;
-    color: grey;;
-}
 .card4{
     background-color: white;
     width: 180px;
@@ -266,26 +242,116 @@ hr.solid {
     text-align: center;
     margin-right: 20%;
 }
-.imgCard4{
-    margin-top: 30px;
-}
-.textCard4{ 
-    width: 80%;
-    text-align: center;
-    margin-left: 10%;
-
-}
-#titleCard4{
-    font-weight: bold;
-}
-#descCard4{
-    font-weight: 300;
-    font-size: 10px;
-    color: grey;
-}
 #kucing2{
     z-index: 0;
     position: absolute;
     right: 0; 
     margin-top: -550px;
+}
+
+.section4{
+    position: relative;
+    z-index: 1;
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 850px;
+    padding-top: 80px;
+}
+.topSection4{   
+    position: relative;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.buttonPrevNext{
+    position: absolute;
+    right: 0;
+    margin-top: -50px;
+    
+}
+#articles{
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0;
+}
+.descSect4{
+    margin-top: 12px;
+    font-weight: 300;
+    color: grey;
+    font-size: 20px;
+}
+hr.solidSect4{
+    margin-right: 140vh;
+    margin-top: 15px;
+}
+#prev{
+    background-color: #f1f0f0;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+}
+#next{
+    background-color: #846161;
+    border: none;
+    padding: 10px;
+}
+#prevNextImg{
+    width: 25px;
+    vertical-align: middle;
+}
+.cardSect4{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+.card1S4{
+    background-color: white;
+    width: 380px;
+    height: 470px;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.imgcard1S4{
+    margin: 20px;
+    width: 90%;
+}
+#imgcard1S4{
+    width: 100%;
+}
+.textcard1S4{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+#titlecard1S4{
+    font-size: 25px;
+    margin: 0;
+}
+#desccard1S4{
+    font-weight: 300;
+    color: grey;
+    font-size: 15px;
+}
+hr.solidSect4_2 {
+    border-top: 1px solid lightgray;
+    width: 85%;
+    margin-top: 5px;
+}
+.genreCard{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 30px;
+}
+#buttonGenre{
+    margin: 0;
+    border: none;
+    height: 30px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+#textGenre{
+    margin: 0;
+    color: #7a5454;
 }

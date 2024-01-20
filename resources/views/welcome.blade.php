@@ -91,47 +91,125 @@
         <hr class="solid">
         <div class="cardSect3">
             <div class="card1">
-                <div class="imgCard1">
+                <div class="imgCard">
                     <img id="imgCard1" src="{{ asset('images/icon.png') }}" alt="imgCard1">
                 </div>
-                <div class="textCard1">
+                <div class="textCard">
                     <p id="titleCard1">Routine Health Checks</p>
                     <p id="descCard1">Pellenque nunc nisi, rhos in pulvinar drerit et dolor.</p>
                 </div>
             </div>
             <div class="card2">
-                <div class="imgCard1">
+                <div class="imgCard">
                     <img id="imgCard2" src="{{ asset('images/icon2.png') }}" alt="imgCard2">
                 </div>
-                <div class="textCard1">
+                <div class="textCard">
 
-                    <p id="titleCard2">Routine Health Checks</p>
+                    <p id="titleCard2">Vaccination Record</p>
                     <p id="descCard2">Pellenque nunc nisi, rhos in pulvinar drerit et dolor.</p>
                 </div>
             </div>
             <div class="card3">
-                <div class="imgCard1">
+                <div class="imgCard">
                     <img id="imgCard3" src="{{ asset('images/icon3.png') }}" alt="imgCard3">
                 </div>
-                <div class="textCard1">
-                    <p id="titleCard3">Routine Health Checks</p>
-                    <p id="descCard3">Pellenque nunc nisi, rhos in pulvinar drerit et dolor.</p>
+                <div class="textCard">
+                    <p id="titleCard1">Diet And Weight Monitoring</p>
+                    <p id="descCard1">Pellenque nunc nisi, rhos in pulvinar drerit et dolor.</p>
                 </div>
             </div>
             <div class="card4">
-                <div class="imgCard1">
+                <div class="imgCard">
                     <img id="imgCard4" src="{{ asset('images/icon4.png') }}" alt="imgCard4">
                 </div>
-                <div class="textCard1">
-                    <p id="titleCard4">Routine Health Checks</p>
-                    <p id="descCard4">Pellenque nunc nisi, rhos in pulvinar drerit et dolor.</p>
+                <div class="textCard">
+                    <p id="titleCard1">Recording Kitten Growth</p>
+                    <p id="descCard1">Pellenque nunc nisi, rhos in pulvinar drerit et dolor.</p>
                 </div>
             </div>
-            
+
         </div>
-        
+
     </div>
     <img id="kucing2" src="{{ asset('images/kucingSect3.png') }}" alt="kucing2">
+
+
+    <div class="section4">
+        <div class="topSection4">
+            <p id="articles">Articles</p>
+
+            <div class="descSect4">
+                Checkout latest news & articles
+            </div>
+            <div class="buttonPrevNext">
+                <button id="prev"><img id="prevNextImg" src="{{ asset('images/arrow-left.png') }}" alt="prevButton">
+                </button>
+                <button id="next"><img id="prevNextImg" src="{{ asset('images/arrow-right.png') }}" alt="nextButton">
+                </button>
+            </div>
+            <hr class="solidSect4">
+        </div>
+        <div class="cardSect4">
+            <div class="card1S4">
+                <div class="imgcard1S4">
+                    <img id="imgcard1S4" src="{{ asset('images/sect4.png') }}" alt="imgcard1S4">
+                </div>
+                <div class="textcard1S4">
+                    <p id="titlecard1S4">Cras viverra faucibus pharetra.</p>
+                    <p id="desccard1S4">Mauris lorem felis, pulvinar dapibus ante vel, aliquet lacinia augue. Sed
+                        ultricies dignissim posuere. Suspendisse nisi quam.</p>
+                </div>
+                <hr class="solidSect4_2">
+                <div class="genreCard">
+                    <button id="buttonGenre">
+                        <p id="textGenre">Health</p>
+                    </button>
+                    <button id="buttonGenre">
+                        <p id="textGenre">Treatment</p>
+                    </button>
+                </div>
+            </div>
+            <div class="card1S4">
+                <div class="imgcard1S4">
+                    <img id="imgcard1S4" src="{{ asset('images/sect4_2.png') }}" alt="imgcard1S4">
+                </div>
+                <div class="textcard1S4">
+                    <p id="titlecard1S4">Cras viverra faucibus pharetra.</p>
+                    <p id="desccard1S4">Mauris lorem felis, pulvinar dapibus ante vel, aliquet lacinia augue. Sed
+                        ultricies dignissim posuere. Suspendisse nisi quam.</p>
+                </div>
+                <hr class="solidSect4_2">
+                <div class="genreCard">
+                    <button id="buttonGenre">
+                        <p id="textGenre">Health</p>
+                    </button>
+                    <button id="buttonGenre">
+                        <p id="textGenre">Treatment</p>
+                    </button>
+                </div>
+            </div>
+            <div class="card1S4">
+                <div class="imgcard1S4">
+                    <img id="imgcard1S4" src="{{ asset('images/sect4_3.png') }}" alt="imgcard1S4">
+                </div>
+                <div class="textcard1S4">
+                    <p id="titlecard1S4">Cras viverra faucibus pharetra.</p>
+                    <p id="desccard1S4">Mauris lorem felis, pulvinar dapibus ante vel, aliquet lacinia augue. Sed
+                        ultricies dignissim posuere. Suspendisse nisi quam.</p>
+                </div>
+                <hr class="solidSect4_2">
+                <div class="genreCard">
+                    <button id="buttonGenre">
+                        <p id="textGenre">Health</p>
+                    </button>
+                    <button id="buttonGenre">
+                        <p id="textGenre">Treatment</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </body>
 
 </html>
