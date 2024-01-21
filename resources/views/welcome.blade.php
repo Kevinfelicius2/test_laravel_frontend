@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Breeder</title>
     <link rel="stylesheet" href="{{ asset('css/breeder.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -210,6 +211,77 @@
         </div>
 
     </div>
+
+    <div class="section5">
+        <div class="leftSect5">
+            <img id="imgSec5" src="{{ asset('images/kucingSect5.png') }}" alt="img-kucing-kuning">
+        </div>
+        <div class="rightSect5">
+            <div class="txtSect5">
+                <p id="record">Record And Monitor The</p>
+                <div class="growthText">
+                    <p id="growth">Growth</p>
+                    <p id="furry">Of Your Furry Friend</p>
+                </div>
+                <hr class="solidSect5">
+                <div class="descSect5">
+                    Suspendisse dapibus ante vel felis condimentum finibus. Aliquam imperdiet enim eu augue porttitor,
+                    et tempor dolor facilisis. Morbi fermentum efficitur maximus. Nam convallis egestas odio nec
+                    pharetra. Sed bibendum sed ligula nec pellentesque
+                </div>
+                <p id="freeApp">Get the free app only at</p>
+                <div class="iconApp">
+                    <img id="appStore" src="{{ asset('images/appstore.png') }}" alt="appstore">
+                    <img id="playStore" src="{{ asset('images/playstore.png') }}" alt="playstore">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="leftFooter">
+                <img id="logoFooter" src="{{ asset('images/BR.png') }}" alt="logo-breeder-research"><br>
+                <img id="txtLogoFooter" src="{{ asset('images/BR-Txt.png') }}" alt="logoText-breeder-research">
+                <div class="descFooter">
+                    Breeder Reserve is an app designed for cat lovers who want to monitor and maintain their cat's
+                    health easily and efficiently.
+                </div>
+                <div class="iconFooter">
+                    <img id="iconWcf" src="{{ asset('images/iconwcf.png') }}" alt="icon-wcf">
+                    <img id="iconTwitter" src="{{ asset('images/twitter.png') }}" alt="icon-twitter">
+                    <img id="iconFB" src="{{ asset('images/facebook.png') }}" alt="icon-fb">
+                    <img id="iconIG" src="{{ asset('images/instagram.png') }}" alt="icon-ig">
+                </div>
+            </div>
+            <div class="middleFooter">
+                <ul class="linksnOther">
+                    <li><b>Links</b></li>
+                    <div class="deriv">
+                        <li id="aboutFooter">About</li>
+                        <li>Blog</li>
+                        <li>Service</li>
+                    </div>
+                </ul>
+            </div>
+            <div class="rightFooter">
+                <ul class="linksnOther">
+                    <li><b>Other</b></li>
+                    <div class="deriv">
+                        <li>Contact</li>
+                        <li>Terms & Conditions</li>
+                        <li>Privacy Policy</li>
+                    </div>
+                </ul>
+            </div>
+            
+        </div>
+        <hr class="solidFooter">
+        <div class="bottom-bar">
+            <p>Copyright &copy; Breeder Reserve 2024 - All Right Reserved</p>
+        </div>
+    </footer>
 </body>
 
 </html>
